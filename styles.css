@@ -1,15 +1,10 @@
-div{
-	display:inline;
-}
 
-div::before {
+span::before {
   content: "Before Element";
   color: rgb(255, 0, 0);
-	display:inline;
 }
 
-div::after {
+span::after {
   content: "After Element";
   color: rgb(255, 0, 0);
-display:inline;
 }
