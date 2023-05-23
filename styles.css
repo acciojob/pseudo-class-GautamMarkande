@@ -1,9 +1,15 @@
-p::before {
-  content: "Before Element";
-  color  :    rgb(255, 0, 0);
+div{
+	display:inline;
 }
 
-p::after {
+div::before {
+  content: "Before Element";
+  color: rgb(255, 0, 0);
+	display:inline;
+}
+
+div::after {
   content: "After Element";
-  color:rgb(255, 0, 0);
+  color: rgb(255, 0, 0);
+display:inline;
 }
